@@ -8,13 +8,14 @@
 
 <ul>
   {{#each model as |product|}}
-  {{product.name}}
-  {{product.description}} built in
-  {{product.manufacturer}}
-  <img src={{product.image}} alt={{product.name}}> {{product.cost}}
+
+ {{product-tile product=product destroyProduct="destroyProduct"}}
+
   {{/each}}
   <hr>
 </ul>
+
+{{new-product saveProduct2="saveProduct3"}}
 
 {{#link-to 'contact'}}Contact Us.{{/link-to}}
 {{#link-to 'about'}}About.{{/link-to}}

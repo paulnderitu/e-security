@@ -1,1 +1,6 @@
-{{yield}}
+{{product.name}}
+{{product.description}}
+{{product.manufacturer}}
+<img src={{product.image}} alt={{product.name}}>
+{{product.cost}}
+<button {{action 'delete' product}}>Delete Product</button>
