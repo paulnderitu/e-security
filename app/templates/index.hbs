@@ -1,1 +1,18 @@
-{{outlet}}
+<h1> Welcome to E-Secutity</h1>
+
+<p>Yopur security isn our priority. We can make this world
+  secure enough for you. We gat all of your security needs!</p>
+
+<h2>For all of your Necurity Needs</h2>
+
+<ul>
+  {{#each model as |product|}}
+  {{product.name}}
+  {{product.description}} built in
+  {{product.manufacturer}}
+  {{product.image}}{{product.cost}}
+  {{/each}}
+</ul>
+
+{{#link-to 'contact'}}Contact Us.{{/link-to}}
+{{#link-to 'about'}}About.{{/link-to}}
