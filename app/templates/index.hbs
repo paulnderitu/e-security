@@ -1,17 +1,19 @@
-<h1> Welcome to E-Secutity</h1>
+<h1> Welcome to E-Security</h1>
 
-<p>Yopur security isn our priority. We can make this world
-  secure enough for you. We gat all of your security needs!</p>
+<p>Your security is our priority.
+   We gat all your security needs!</p>
 
-<h2>For all of your Necurity Needs</h2>
+<h2>For all of your Security Needs</h2>
+<hr>
 
 <ul>
   {{#each model as |product|}}
   {{product.name}}
   {{product.description}} built in
   {{product.manufacturer}}
-  {{product.image}}{{product.cost}}
+  <img src={{product.image}} alt={{product.name}}> {{product.cost}}
   {{/each}}
+  <hr>
 </ul>
 
 {{#link-to 'contact'}}Contact Us.{{/link-to}}
