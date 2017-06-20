@@ -25,5 +25,14 @@
   "manufacturer": "Sparks Security Germany",
   "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4220/4220811_sa.jpg;maxHeight=1000;maxWidth=1000",
   "cost": 2000
-}]
+}],
+"reviews": [{
+  "author": "Njoroge",
+  "rating": 7,
+  "content": "can do better"
+}, {
+  "author": "Njuguna",
+  "rating": 4,
+  "content": "pull up your socks"
+  }]
 }

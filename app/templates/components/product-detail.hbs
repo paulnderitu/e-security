@@ -2,6 +2,11 @@
   {{model.description}} manufactured in {{model.manufacturer}}
    going for <img src="{{model.image}}" alt="{{model.image}}"> {{model.cost}}</h2>
 
-
+<h2>Reviews</h2>
+<ul>
+  {{#each product.reviews as |review|}}
+    {{review-tile review=review destroyReview="destroyReview"}}
+  {{/each}}
+</ul>
 
 <button {{action 'delete' product}}>Delete Product</button>
