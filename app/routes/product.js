@@ -18,10 +18,14 @@ export default Ember.Route.extend({
 
 
     destroyProduct(product) {
-      product.destroyRecord();
-      this.transitionTo('index');
-    },
-
+var review_deletions = product.get('reviews').map(function(review){
+  return review.destroyRecord();
+});
+Ember.RSVP.all(review_deletions).then(function() {
+  return product.destroyRecord();
+});
+this.transitionTo('index');
+},
     saveReview(params) {
     var newReview = this.store.createRecord('review', params);
     var product = params.product;
@@ -30,6 +34,11 @@ export default Ember.Route.extend({
       return product.save();
     });
     this.transitionTo('product', product);
+  },
+
+  destroyReview(review) {
+    review.destroyRecord();
+    this.transitionTo('index');
   }
 }
 });
