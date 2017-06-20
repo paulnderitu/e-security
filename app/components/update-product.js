@@ -8,6 +8,7 @@ export default Ember.Component.extend({
     },
     update(product) {
       var params = {
+
         name: this.get('name'),
         description: this.get('description'),
         manufacturer: this.get('manufacturer'),

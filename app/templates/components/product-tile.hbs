@@ -1,13 +1,13 @@
-<img src={{product.image}} alt={{product.name}}>
 
+{{#link-to 'product' product.id}}<img src={{product.image}} alt={{product.name}}>
 
 {{product.name}}
 {{product.description}}
 {{product.manufacturer}}
-{{product.cost}}
+{{product.cost}}{{/link-to}}
 
-{{update-product product=product update="update"}}
 
-<button {{action 'delete' product}}>Delete Product</button>
+
+
 
 <hr>

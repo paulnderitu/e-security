@@ -1,1 +1,7 @@
-{{yield}}
+<h2> {{model.name}}
+  {{model.description}} manufactured in {{model.manufacturer}}
+   going for <img src="{{model.image}}" alt="{{model.image}}"> {{model.cost}}</h2>
+
+
+
+<button {{action 'delete' product}}>Delete Product</button>
