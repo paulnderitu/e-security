@@ -9,4 +9,8 @@
   {{/each}}
 </ul>
 
+<button {{action 'addToCart' product}}>Add to Cart</button>
+<br>
 <button {{action 'delete' product}}>Delete Product</button>
+
+{{display-cart}}
