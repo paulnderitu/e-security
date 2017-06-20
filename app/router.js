@@ -10,6 +10,8 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('product', {path: '/product/:product_id'});
+  this.route('store.hbs');
+  this.route('store');
 });
 
 export default Router;
