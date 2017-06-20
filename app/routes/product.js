@@ -8,7 +8,7 @@ export default Ember.Route.extend({
   actions: {
     update(product, params) {
       Object.keys(params).forEach(function(key) {
-        if(params[keys]!==undefined) {
+        if(params[key]!==undefined) {
           product.set(key,params[key]);
         }
       });

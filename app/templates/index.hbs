@@ -8,7 +8,7 @@
 
 <ul>
   {{#each model.products as |product|}}
- {{product-tile product=product}}
+    {{product-popularity product}}{{product-tile product=product}}
   {{/each}}
 </ul>
 
