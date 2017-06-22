@@ -8,9 +8,17 @@ h1{
 }
 
 .welcome{
+  background-image: url(http://valorforce.com/wp-content/uploads/2017/05/all-abt-safe-background.jpg);
+  background-size: 1200px 500px;
+  background-attachment: fixed;
   font-size: 40px;
   text-align: center;
   font-family: sans-serif;
   color: black;
 
+
+}
+.footer{
+  float:right;
+  font-size: 25px;
 }
