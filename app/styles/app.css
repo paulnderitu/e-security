@@ -27,12 +27,7 @@ h1{
 .footer{
   float:right;
   font-size: 25px;
-}
-
-#myCarousel{
-  height: auto;
-  width: auto;
-  position: relative;
+  position:inherit;
 }
 
 .carousel-inner{
@@ -54,4 +49,9 @@ text-align: center;
 
 .products{
   margin-top: 150px;
-}
+  margin-left: 200px;
+  }
+  .products{
+    float: left;
+    align-items: flex-start;
+  }
