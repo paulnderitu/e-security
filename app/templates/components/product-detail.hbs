@@ -1,7 +1,10 @@
-<h2> {{model.name}}
-  {{model.description}} manufactured in {{model.manufacturer}}
-   going for <img src="{{model.image}}" alt="{{model.image}}"> {{model.cost}}</h2>
+<p><strong> Name:</strong>{{product.name}}</p>
+<hr>
+<img src={{product.image}} alt={{product.name}} ><br>
+<p><strong>Description: </strong> {{product.description}}</p><br>
+<p><strong>Cost:</strong> {{product.cost}}</p>
 
+<hr>
 <h2>Reviews</h2>
 <ul>
   {{#each sortedReviews as |review|}}
