@@ -22,12 +22,6 @@ h1{
   color: black;
   margin-top: auto;
 
-
-}
-.footer{
-  float:right;
-  font-size: 25px;
-  position:inherit;
 }
 
 .carousel-inner{
@@ -49,7 +43,7 @@ text-align: center;
 
 .products{
   margin-top: 150px;
-  margin-left: 200px;
+  margin-left: 150px;
   }
   .products{
     float: left;
