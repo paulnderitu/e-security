@@ -1,3 +1,9 @@
+.body{
+  background-image: url();
+  background-color:#565051 ;
+}
+
+
 .welcome-container {
   margin-top: 100px;
 }
@@ -8,17 +14,44 @@ h1{
 }
 
 .welcome{
-  background-image: url(http://valorforce.com/wp-content/uploads/2017/05/all-abt-safe-background.jpg);
-  background-size: 1200px 500px;
+  background-image: url(http://valorforce.com/wp-content/uploads/201/05/all-abt-safe-background.jpg);
   background-attachment: fixed;
   font-size: 40px;
   text-align: center;
   font-family: sans-serif;
   color: black;
+  margin-top: auto;
 
 
 }
 .footer{
   float:right;
   font-size: 25px;
+}
+
+#myCarousel{
+  height: auto;
+  width: auto;
+  position: relative;
+}
+
+.carousel-inner{
+  height: auto;
+  width: auto;
+}
+
+.item{
+  height: auto;
+  width: auto;
+}
+
+.carousel{
+height: 700px;
+width: auto;
+position: relative;
+text-align: center;
+}
+
+.products{
+  margin-top: 150px;
 }
