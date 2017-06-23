@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 {{#link-to 'product' product.id}}<img src={{product.image}} alt={{product.name}}>
 
 <br>
@@ -9,3 +10,14 @@
 <button {{action 'addToCart' product}}>Add to Cart</button>
 
 <hr>
+=======
+<div class="products">
+    {{#link-to 'product' product.id}}<img src={{product.image}} alt={{product.name}}>
+    <br>
+    {{product.name}}
+    {{/link-to}}
+    <br>
+        {{product.cost}}
+    <button {{action 'addToCart' product}}>Add to Cart</button>
+</div>
+>>>>>>> dc39de4a64896411e8930d62a5f1caf57c60455a

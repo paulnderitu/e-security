@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1> Welcome to E-Security</h1>
 
 <p>Your security is our priority.
@@ -5,12 +6,67 @@
 
 <h2>For all of your Security Needs</h2>
 <hr>
+=======
+<div class="welcome-container">
+
+<h1 class="welcome"> E-Security: For Invisible Security</h1>
+
+<div class="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="http://nwhitech.com/shop/wp-content/uploads/2015/10/124591-1024x768.jpg" alt="Chania">
+          <div class="carousel-caption">
+            <h3>Security Cameras</h3>
+            <p>Its able to record and has a wide range of view.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://alarmsforanyone.com/wp-content/uploads/Motion-1024x768.jpg" alt="Chicago">
+          <div class="carousel-caption">
+            <h3>Motion Sensors</h3>
+            <p>Motion Detector for Premier Systems</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/51Rny7VWB4L._SL1024_.jpg" alt="New York">
+          <div class="carousel-caption">
+            <h3>Security Safe</h3>
+            <p>Yale YLM/200/EG1 Laptop Safe with Keypad W:48cm D: 35cm H: 20cm:!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+</div>
+>>>>>>> dc39de4a64896411e8930d62a5f1caf57c60455a
 
 <ul>
   {{#each model.products as |product|}}
     {{product-popularity product}}{{product-tile product=product}}
   {{/each}}
 </ul>
+<<<<<<< HEAD
 
 {{new-product saveProduct2="saveProduct3"}}
 
@@ -18,3 +74,10 @@
 
 {{#link-to 'contact'}}Contact Us.{{/link-to}}
 {{#link-to 'about'}}About.{{/link-to}}
+=======
+</div>
+
+{{new-product saveProduct2="saveProduct3"}}
+
+{{display-cart}}
+>>>>>>> dc39de4a64896411e8930d62a5f1caf57c60455a

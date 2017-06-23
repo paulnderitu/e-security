@@ -1,6 +1,10 @@
 {
   "name": "e-security",
+<<<<<<< HEAD
   "dependencies": {
     "blob-polyfill": "^1.0.20150320"
   }
+=======
+  "dependencies": {}
+>>>>>>> dc39de4a64896411e8930d62a5f1caf57c60455a
 }

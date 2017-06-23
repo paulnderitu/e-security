@@ -12,7 +12,10 @@ Router.map(function() {
   this.route('product', {path: '/product/:product_id'});
   this.route('store.hbs');
   this.route('store');
+<<<<<<< HEAD
   this.route('cart');
+=======
+>>>>>>> dc39de4a64896411e8930d62a5f1caf57c60455a
 });
 
 export default Router;
