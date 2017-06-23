@@ -1,0 +1,16 @@
+<h2> {{model.name}}
+  {{model.description}} manufactured in {{model.manufacturer}}
+   going for <img src="{{model.image}}" alt="{{model.image}}"> {{model.cost}}</h2>
+
+<h2>Reviews</h2>
+<ul>
+  {{#each sortedReviews as |review|}}
+    {{review-tile review=review destroyReview="destroyReview"}}
+  {{/each}}
+</ul>
+
+<button {{action 'addToCart' product}}>Add to Cart</button>
+<br>
+<button {{action 'delete' product}}>Delete Product</button>
+
+{{display-cart}}
