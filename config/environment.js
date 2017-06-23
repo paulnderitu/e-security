@@ -17,13 +17,13 @@ module.exports = function(environment) {
       }
     },
 
-    firebase: {
-      apiKey: "AIzaSyDntrbpjeekfzP3gBIGIqFNStMph3SO5so",
-        authDomain: "e-security-49cb6.firebaseapp.com",
-        databaseURL: "https://e-security-49cb6.firebaseio.com",
-        projectId: "e-security-49cb6",
-        storageBucket: "",
-      },
+  firebase: {
+    apiKey: "AIzaSyDntrbpjeekfzP3gBIGIqFNStMph3SO5so",
+     authDomain: "e-security-49cb6.firebaseapp.com",
+     databaseURL: "https://e-security-49cb6.firebaseio.com",
+     projectId: "e-security-49cb6",
+     storageBucket: "",
+   },
 
     APP: {
       // Here you can pass flags/options to your application instance
